@@ -1,0 +1,10 @@
+name = "App"
+uuid = "0862ae37-ada4-4f16-b4bb-9a0c43509128"
+authors = ["Brad Carman <brad_carman@instron.com>"]
+version = "0.1.0"
+
+[extras]
+ReferenceTests = "324d217c-45ce-50fc-942e-d289b448e8cf"
+
+[targets]
+test = ["ReferenceTests"]
